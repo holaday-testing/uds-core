@@ -3,7 +3,6 @@ name: Filter
 # This workflow is triggered on pull requests
 #testing
 on:
-  pull_request:
   merge_group:
     types: [checks_requested]
 
