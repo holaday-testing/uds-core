@@ -1,8 +1,6 @@
 name: Test packages
 
 on:
-  merge_group:
-    types: [checks_requested]
   # Manual trigger
   workflow_dispatch:
     inputs:
