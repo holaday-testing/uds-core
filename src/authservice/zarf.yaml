@@ -3,7 +3,7 @@ metadata:
   name: uds-core-authservice
   description: "UDS Core Authservice"
   url: https://github.com/istio-ecosystem/authservice
-#testing
+
 components:
   - name: authservice
     required: true
