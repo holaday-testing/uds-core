@@ -43,7 +43,7 @@ jobs:
     env:
       UDS_PKG: ${{ inputs.package }}
     outputs:
-      success: ${{ steps.test-single-package }}
+      success: ${{ steps.test-single-package.success }}
 
     steps:
       - name: Checkout repository
